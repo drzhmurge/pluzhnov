@@ -1,4 +1,4 @@
-#!/usr/bin/php
+#!W:/modules/php/PHP_7.2-x64/php.exe
 <?php
 
 ob_implicit_flush(true);
