@@ -1,0 +1,6 @@
+/www/wp-content/ai1wm-backups/
+www/wp-content/wflogs/
+*.log
+*.sql
+*.sql.gz
+error-logs.txt
