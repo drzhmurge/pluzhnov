@@ -1,4 +1,4 @@
 #!/bin/bash
 ARGS=$(printf '"%s" ' "$@")
 CMD="cd /var/www/www-root/data/www/pluzhnov.ru && git $ARGS"
-ssh www-root@89.108.103.19 "$CMD"
+ssh root@89.108.103.19 "$CMD"
