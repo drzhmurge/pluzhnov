@@ -1,0 +1,13 @@
+/**
+ * Hypermarket Child Theme
+ *
+ * @author      Mahdi Yazdani
+ * @package     Hypermarket Child
+ * @since       1.0.0
+ */
+
+.mycred-my-balance-wrapper {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 800;
+}
