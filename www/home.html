@@ -1,0 +1,27 @@
+<section id="titlechart">
+    <script>
+        // init controller
+        var controller = new ScrollMagic.Controller();
+    </script>
+</section>
+<section class="demo">
+    <div class="spacer s2"></div>
+    <div id="trigger1" class="spacer s0"></div>
+    <div id="pin1" class="box2 blue">иаепа</div>
+    <div class="spacer s2"></div>
+    <script>
+        jQuery(function($) { // wait for document ready
+            // build scene
+            var scene = new ScrollMagic.Scene({
+                    triggerElement: "#trigger1",
+                    duration: 800
+                })
+                .setPin("#pin1")
+                .addIndicators({
+                    name: "1 (duration: 800)"
+                }) // add indicators (requires plugin)
+                .addTo(controller);
+        });
+    </script>
+
+</section>

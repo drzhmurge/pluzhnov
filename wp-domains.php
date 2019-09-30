@@ -8,10 +8,10 @@ define("WP_DOMAINS_INITIALIZED", 1);
 //*** УКАЖИТЕ ЗДЕСЬ СВОИ ДОМЕНЫ ***
 //*********************************
 $domains_enabled = array(
-    "mysite.ru",
-    "www.mysite.ru",
-    "mysite.local",
-    "www.mysite.local"
+    "pluzhnov.ru",
+    "www.pluzhnov.ru",
+    "pluzhnov.local",
+    "www.pluzhnov.local"
 );
 
 
