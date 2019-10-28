@@ -1,0 +1,278 @@
+/*--------------------------------------------------------------
+This is your custom stylesheet.
+
+Add your own styles here to make theme updates easier.
+To override any styles from other stylesheets, simply copy them into here and edit away.
+
+Make sure to respect the media queries! Otherwise you may
+accidentally add desktop styles to the mobile layout.
+
+You're the boss, so have fun editing!
+
+--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Global Styles
+2.0 - Responsive media queries (mobile styles)
+	2.1 - MAXIMUM width of 720 pixels (phones landscape)
+	2.2 - MAXIMUM width of 350 pixels (phones portrait)
+	2.3 - MINIMUM width of 721 pixels (tablets+)
+	2.4 - MINIMUM width of 1040 pixels (desktops and laptops)
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+1.0 - Global Styles
+--------------------------------------------------------------*/
+
+
+/*
+.just_an_example {
+	color: black;
+}
+*/
+
+
+/*--------------------------------------------------------------
+2.0 - Responsive media queries (mobile styles)
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+2.1 - MAXIMUM width of 720 pixels (phones landscape)
+--------------------------------------------------------------*/
+
+.learndash-wrapper a.ld-table-list-item-preview,
+.learndash-wrapper a.ld-item-name,
+.learndash-wrapper a.ld-topic-row {
+    flex-wrap: wrap;
+    position: relative;
+    padding-left: 50px !important;
+}
+
+.ld-tab-content {
+    background: #fff;
+    padding: 15px!important;
+    border: 2px solid #eee;
+}
+
+.ld-tab-content p {
+    color: #444444;
+}
+
+.learndash-wrapper a.ld-table-list-item-preview .ld-status-icon,
+.learndash-wrapper a.ld-item-name .ld-status-icon,
+.learndash-wrapper a.ld-topic-row .ld-status-icon {
+    position: absolute;
+    left: 10px;
+}
+
+th.product-name,
+th.product-total,
+td.product-total,
+tr.cart-subtotal,
+tr.order-total,
+.woocommerce-billing-fields {
+    display: none;
+}
+
+h2.woocommerce-loop-product__title {
+    text-align: center;
+    font-size: 20px!important;
+}
+
+.balance-profile {
+    height: 74px;
+    display: table-cell;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+}
+
+.product-details-table td {
+    width: 50%;
+    padding-left: 10px;
+}
+
+table.product_features td {
+    width: 70%;
+}
+
+.woocommerce div.product {
+    margin-bottom: 0;
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.flex-viewport {
+    float: right;
+    width: 77%;
+}
+
+.woocommerce #content div.product div.images,
+.woocommerce div.product div.images,
+.woocommerce-page #content div.product div.images,
+.woocommerce-page div.product div.images {
+    width: 50%;
+}
+
+.woocommerce #content div.product div.summary,
+.woocommerce div.product div.summary,
+.woocommerce-page #content div.product div.summary,
+.woocommerce-page div.product div.summary {
+    width: 47%;
+}
+
+.learndash-wrapper a {
+    text-decoration: none;
+    text-shadow: none;
+    color: #12c6be;
+}
+
+.woocommerce div.product div.images .flex-control-thumbs li {
+    width: 50%;
+    float: none!important;
+    margin-bottom: 10px!important;
+    margin: 0;
+    list-style: none;
+}
+
+ol.flex-control-nav.flex-control-thumbs {
+    float: left;
+    display: block;
+    width: 23%;
+}
+
+table.table.table-striped.product-details-table {
+    width: 50%!important;
+    font-size: 15px;
+}
+
+.product-details-overview-specification,
+.product-details-specification-item {
+    display: table-cell;
+}
+
+.table-striped tbody tr:nth-child(odd) td,
+.table-striped tbody tr:nth-child(odd) th {
+    background-color: #f5f5f5;
+}
+
+span.woocommerce-Price-amount.amount:after {
+    content: "\f563";
+    font-family: fontawesome;
+    padding-left: 6px;
+}
+
+.love {
+    font-size: 16px;
+}
+
+.mycred-my-balance-wrapper {
+    font-weight: 900;
+}
+
+.mycred-my-balance-wrapper div:after {
+    content: "\f563";
+    font-family: fontawesome;
+    padding-left: 6px;
+}
+
+.balance {
+    /* background: #fff; */
+    color: #30445c;
+    color: #fff;
+    padding: 2px 10px;
+    border: 1px solid #ffffff6b;
+}
+
+#order_review_heading {
+    margin-top: 0;
+}
+
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+    padding: 1em 2em 1em 3.5em;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #ffffff;
+}
+
+table.shop_table.woocommerce-checkout-review-order-table {
+    background: #fff;
+    font-size: 16px;
+    color: #529bbe;
+}
+
+.love .fa-heart {
+    color: #e53e3e!important;
+}
+
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+    background: #ffffff;
+}
+
+@media screen and (max-width: 720px) {
+    /*
+	.just_an_example {
+		color: black;
+	}
+	*/
+}
+
+
+/* don't delete this closing bracket */
+
+
+/*--------------------------------------------------------------
+2.2 - MAXIMUM width of 350 pixels (phones portrait)
+--------------------------------------------------------------*/
+
+@media screen and (max-width: 350px) {
+    /*
+	.just_an_example {
+		color: black;
+	}
+	*/
+}
+
+
+/* don't delete this closing bracket */
+
+
+/*--------------------------------------------------------------
+2.3 - MINIMUM width of 721 pixels (tablets+)
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 721px) {
+    /*
+	.just_an_example {
+		color: black;
+	}
+	*/
+}
+
+
+/* don't delete this closing bracket */
+
+
+/*--------------------------------------------------------------
+2.4 - MINIMUM width of 1040 pixels (desktops and laptops)
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 1040px) {
+    /*
+	.just_an_example {
+		color: black;
+	}
+	*/
+}
+
+
+/* don't delete this closing bracket */
